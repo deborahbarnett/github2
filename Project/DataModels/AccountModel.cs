@@ -8,10 +8,6 @@
 
     public string FullName { get; set; }
 
-    public string Address { get; set; }
-
-    public string PhoneNumber { get; set; }
-
     public AccountModel(Int64 id, string email, string password, string fullname)
     {
         Id = id;
